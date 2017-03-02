@@ -10,19 +10,14 @@ namespace AreaRectangle
     {
         static void Main(string[] args)
         {
-            float length;
-            float width;
-            float area;
-            string input;
-            Console.WriteLine("Please enter the length of the rectangle:");
-            input = Console.ReadLine();
-            length = float.Parse(input);
-            Console.WriteLine("Please enter the width of the rectangle:");
-            input = Console.ReadLine();
-            width = float.Parse(input);
-            area = length * width;
-            Console.WriteLine("The area of the rectangle is " + area);
-            Console.ReadLine();
+            double length;
+            double width;
+            Console.Write("Please enter the length of the rectangle:");
+            length = double.Parse(Console.ReadLine());
+            Console.Write("Please enter the width of the rectangle:");
+            width = double.Parse(Console.ReadLine());
+            Console.WriteLine("The area of the rectangle is " + length * width);
+            Console.Read();
 
             
 
