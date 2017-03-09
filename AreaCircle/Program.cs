@@ -11,6 +11,7 @@ namespace AreaCircle
         static void Main(string[] args)
         {
             double radius;
+            double area;
             string input;
             do
             {
@@ -21,7 +22,8 @@ namespace AreaCircle
             
 
             radius = double.Parse(input);
-            Console.WriteLine("The area is " + (3.14 * (radius * radius)));
+            area = Math.PI * radius * radius;
+            Console.WriteLine("The area of a circle with a radius of {0} is {1:0.###}", radius, area);
             Console.ReadLine();
         }
     }

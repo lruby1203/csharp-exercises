@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionaries", "Dictionaries\Dictionaries.csproj", "{6638B165-B81D-408E-AD81-E2DE3C9673F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingCharacters", "CountingCharacters\CountingCharacters.csproj", "{F90CAA04-967F-43E3-B98E-ACA3B4E311C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{6638B165-B81D-408E-AD81-E2DE3C9673F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6638B165-B81D-408E-AD81-E2DE3C9673F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6638B165-B81D-408E-AD81-E2DE3C9673F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F90CAA04-967F-43E3-B98E-ACA3B4E311C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90CAA04-967F-43E3-B98E-ACA3B4E311C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F90CAA04-967F-43E3-B98E-ACA3B4E311C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F90CAA04-967F-43E3-B98E-ACA3B4E311C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
