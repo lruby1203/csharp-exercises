@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionaries", "Dictionarie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingCharacters", "CountingCharacters\CountingCharacters.csproj", "{F90CAA04-967F-43E3-B98E-ACA3B4E311C8}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloMVC", "HelloMVC\HelloMVC.xproj", "{4B63C454-4659-400A-AF0D-2F57F5697747}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CheeseMVC", "CheeseMVC\CheeseMVC.xproj", "{5ABF61BE-AA9F-4795-A585-11E2F8F01648}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{F90CAA04-967F-43E3-B98E-ACA3B4E311C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F90CAA04-967F-43E3-B98E-ACA3B4E311C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F90CAA04-967F-43E3-B98E-ACA3B4E311C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B63C454-4659-400A-AF0D-2F57F5697747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B63C454-4659-400A-AF0D-2F57F5697747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B63C454-4659-400A-AF0D-2F57F5697747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B63C454-4659-400A-AF0D-2F57F5697747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ABF61BE-AA9F-4795-A585-11E2F8F01648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABF61BE-AA9F-4795-A585-11E2F8F01648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ABF61BE-AA9F-4795-A585-11E2F8F01648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ABF61BE-AA9F-4795-A585-11E2F8F01648}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
