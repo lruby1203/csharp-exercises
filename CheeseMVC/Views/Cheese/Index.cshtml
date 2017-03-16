@@ -13,9 +13,9 @@
 }
 
 <dl>
-    @foreach (KeyValuePair<string, string> cheese in ViewBag.cheeses){
-        <dt>@cheese.Key</dt>
-            <dd>@cheese.Value</dd>
+    @foreach (CheeseMVC.Models.Cheese cheese in ViewBag.cheeses){
+        <dt>@cheese.Name</dt>
+            <dd>@cheese.Desc</dd>
     }
     
 
